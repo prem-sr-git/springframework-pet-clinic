@@ -16,7 +16,6 @@ import lombok.Setter;
 @MappedSuperclass
 public class Person extends BaseEntity {
 
-	@Builder
 	public Person(Long id, String firstName, String lastName) {
 		super(id);
 		this.firstName = firstName;
